@@ -1,0 +1,30 @@
+body {
+    font-family: arial;
+    text-transform: uppercase;
+}
+
+
+.navbar {
+    font-family: arial;
+    text-transform: uppercase;
+
+    background-color: black;
+    padding: 10px;
+    text-align: left;
+
+    a {
+        color: white;
+        text-decoration: none;
+        padding: 10px 15px;
+        margin: 0 10px;
+        font-size: 18px;
+
+        &.active {
+            background-color: #4caf50;
+        }
+
+        &:hover {
+            background-color: #555;
+        }
+    }
+}

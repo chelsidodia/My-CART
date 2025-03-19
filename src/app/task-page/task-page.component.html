@@ -1,0 +1,15 @@
+<div class="navbar">
+    <h2>Task List</h2>
+    <span>Items: {{ tasks.length }}</span>
+</div>
+
+<form (ngSubmit)="addTask()" class="task-form">
+    <input type="text" [(ngModel)]="newTask" name="task" placeholder="Add new task" required />
+    <button type="submit">Add Task</button>
+</form>
+
+<input type="text" [(ngModel)]="searchTerm" (input)="filterTasks()" placeholder="Search task" class="filter-input" />
+
+<ul>
+    <li *ngFor="let task of tasks">{{ task }}</li>
+</ul>
