@@ -22,18 +22,22 @@ A reusable shopping cart component built with Angular, designed as part of a lar
 1. Clone the repository:  
    ```bash
    git clone https://github.com/chelsidodia/My-CART.git
+   ```
 
 2. Navigate to the project directory:
   ```bash
   cd My-CART
+```
 
 3. Install dependencies:
   ```bash
   npm install
+```
 
 4. Run the project:
   ```bash
   ng serve
+```
 
 5. Open your browser and go to http://localhost:4200 to view the component in action.
 
