@@ -1,16 +1,50 @@
-# TaskApp
+# My-CART
+
+A reusable shopping cart component built with Angular, designed as part of a larger web application. This component allows users to select products, manage quantities, and dynamically calculates the total price in real time.
+
+## Features
+
+- Product selection and quantity management  
+- Dynamic total price calculation  
+- Responsive and user-friendly UI  
+- Modular design for easy integration into Angular projects  
+- Implements Angular best practices for maintainability and scalability  
+
+## Technologies Used
+
+- Angular  
+- TypeScript  
+- RxJS  
+- CSS  
+
+## Installation
+
+1. Clone the repository:  
+   ```bash
+   git clone https://github.com/chelsidodia/My-CART.git
+
+2. Navigate to the project directory:
+  ```bash
+  cd My-CART
+
+3. Install dependencies:
+  ```bash
+  npm install
+
+4. Run the project:
+  ```bash
+  ng serve
+
+5. Open your browser and go to http://localhost:4200 to view the component in action.
+
+
+# Usage
+This component is designed to be integrated into Angular applications where shopping cart functionality is required. You can customize it further based on your project needs.
+
+## TaskApp
 
 This project was generated using [Angular CLI](https://github.com/angular/angular-cli) version 19.2.3.
 
-## Development server
-
-To start a local development server, run:
-
-```bash
-ng serve
-```
-
-Once the server is running, open your browser and navigate to `http://localhost:4200/`. The application will automatically reload whenever you modify any of the source files.
 
 ## Code scaffolding
 
@@ -57,4 +91,7 @@ Angular CLI does not come with an end-to-end testing framework by default. You c
 ## Additional Resources
 
 For more information on using the Angular CLI, including detailed command references, visit the [Angular CLI Overview and Command Reference](https://angular.dev/tools/cli) page.
-# lab-angular
+
+## Contribution
+Contributions are welcome! Feel free to open issues or submit pull requests for improvements.
+
