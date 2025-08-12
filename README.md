@@ -20,8 +20,8 @@ A reusable shopping cart component built with Angular, designed as part of a lar
 ## Installation
 
 1. Clone the repository:  
-   ```bash
-   git clone https://github.com/chelsidodia/My-CART.git
+```bash
+  git clone https://github.com/chelsidodia/My-CART.git
 ```
 
 2. Navigate to the project directory:
